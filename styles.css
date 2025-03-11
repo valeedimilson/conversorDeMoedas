@@ -1,0 +1,73 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0px;
+  padding: 0px;
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #161824;
+}
+
+.app {
+  min-width: 640px;
+  min-height: 480px;
+  background-color: #1d3184;
+
+  border: 3px solid #fff;
+  border-radius: 16px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+
+  & .titulo{
+    font-size: 2.5em;
+    font-weight: bold;
+    color:#fff;
+    margin-bottom:50px;
+  }
+
+  & input {
+    width: 550px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 8px;
+
+    padding-left: 20px;
+
+    font-size: 2em;
+  }
+
+  & select{
+    margin-left:30px;
+    margin-right:30px;
+    width: 255px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 8px;
+  }
+
+  & .divBotoes {
+    width: 90%;
+    text-align: right;
+  }
+  & button {
+    width: 250px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+  }
+
+  & button:hover {
+    background-color: #161824;
+    color: #fff;
+  }
+}
