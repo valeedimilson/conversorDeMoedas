@@ -10,7 +10,7 @@ async function carregaListaMoedas() {
   function criaOptionTipoMoeda(local, valor, label, defaultSelecionado) {
     const option = document.createElement("option");
     option.value = valor;
-    option.textContent = label;
+    option.textContent = `${label} (${valor})`;
     if (defaultSelecionado == valor) {
       option.setAttribute("selected", "");
     }
