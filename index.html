@@ -9,27 +9,21 @@
   </head>
   <body>
     <div class="app">
-        <div class="titulo">
-            Conversor de Moedas
-        </div>
+      <div class="titulo">Conversor de Moedas</div>
       <div>
-        <input type="number" id="valorMoeda01" placeholder="0,00"/>
+        <input type="number" id="valorMoeda01" value="1.00" />
       </div>
       <div>
         <select id="tipoMoeda01">
-            <option>BRL</option>
-            <option>USD</option>
-            <option>YEN</option>
         </select>
         <select id="tipoMoeda02">
-            <option>BRL</option>
-            <option>USD</option>
-            <option>YEN</option>
         </select>
       </div>
-      <div><input type="number" id="valorMoeda02" placeholder="0,00"/></div>
+      <div>
+        <input type="number" id="valorMoeda02" placeholder="0,00"  readonly/>
+      </div>
       <div class="divBotoes">
-        <button id="botaoCalcula">Calcular</button>
+        <button id="botaoConverte">Converter</button>
       </div>
     </div>
   </body>
