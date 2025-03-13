@@ -73,9 +73,31 @@ body {
   }
 
   & button:hover {
-    opacity: .3;
+    opacity: 0.3;
     background-color: #fff;
-    color:#000;
-    
+    color: #000;
+  }
+}
+
+@media (width <= 412px) {
+  .app {
+    min-width: 400px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    & .titulo {
+      text-align: center;
+    }
+
+    & input {
+      width: 350px;
+    }
+
+    & select {
+      margin: 10px;
+      margin-left:15px;
+      
+      width: 375px;
+    }
   }
 }
